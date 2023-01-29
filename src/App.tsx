@@ -1,12 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Contador } from './components/Contador';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Mundo en React OK</h1>
-    </div>
+    <Contador />
   );
 }
 
